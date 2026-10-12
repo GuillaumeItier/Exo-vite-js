@@ -7,9 +7,11 @@ main{
 }
 
 p{
-    font-size: 24px;
+    font-family:Helvetica, sans-serif;
+    font-size: 32px;
+    font-weight: 800;
     text-align: center;
-    color: rgb(201, 65, 65);
+    color: rgb(65, 162, 201);
 
 }
 
@@ -18,13 +20,17 @@ p{
 }
 
 .btn{
-    color: rgb(25, 25, 26);
+    font-family:Helvetica, sans-serif;
+    font-size: 24px;
+    color: rgb(255, 255, 255);
     flex-flow: 0;
-    padding: 32px;
+    width: 160px;
+    height: 160px;
+    padding: 0px;
     border-color: rgba(0, 0, 0, 0.512);
-    border-radius: 15%;
+    border-radius: 90%;
     box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.521);
-    background-color: rgb(206, 237, 244);
+    background-color: rgba(65, 162, 201);
 
 }
 
