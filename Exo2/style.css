@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+
+p{
+    font-size: 24px;
+    text-align: center;
+    color: rgb(201, 65, 65);
+
+}
+
+.btn:active{
+    box-shadow: none;
+}
+
+.btn{
+    color: rgb(25, 25, 26);
+    flex-flow: 0;
+    padding: 32px;
+    border-color: rgba(0, 0, 0, 0.512);
+    border-radius: 15%;
+    box-shadow: 2px 5px 2px rgba(0, 0, 0, 0.521);
+    background-color: rgb(206, 237, 244);
+
+}
+
+.display{
+    display : block ;
+}
