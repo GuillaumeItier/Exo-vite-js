@@ -25,7 +25,3 @@ btn.addEventListener("click", function (){
     btn.textContent = "Pause" ;
    }
 })
-
-
-
-
